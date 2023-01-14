@@ -11,6 +11,10 @@
 		F203DA7D297278140029744D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203DA7C297278140029744D /* ContentView.swift */; };
 		F203DA7F297278160029744D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F203DA7E297278160029744D /* Assets.xcassets */; };
 		F203DA82297278160029744D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F203DA81297278160029744D /* Preview Assets.xcassets */; };
+		F203DA892972782F0029744D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203DA882972782F0029744D /* Item.swift */; };
+		F203DA8B297278820029744D /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203DA8A297278820029744D /* ContentViewModel.swift */; };
+		F203DA8D2972CF5A0029744D /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203DA8C2972CF5A0029744D /* Employee.swift */; };
+		F203DA8F2972D15D0029744D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203DA8E2972D15D0029744D /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F203DA7C297278140029744D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F203DA7E297278160029744D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F203DA81297278160029744D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F203DA882972782F0029744D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F203DA8A297278820029744D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		F203DA8C2972CF5A0029744D /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		F203DA8E2972D15D0029744D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				F203DA7A297278140029744D /* MvvmApp.swift */,
 				F203DA7C297278140029744D /* ContentView.swift */,
+				F203DA882972782F0029744D /* Item.swift */,
+				F203DA8A297278820029744D /* ContentViewModel.swift */,
 				F203DA7E297278160029744D /* Assets.xcassets */,
 				F203DA80297278160029744D /* Preview Content */,
+				F203DA8C2972CF5A0029744D /* Employee.swift */,
+				F203DA8E2972D15D0029744D /* NetworkService.swift */,
 			);
 			path = Mvvm;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F203DA8B297278820029744D /* ContentViewModel.swift in Sources */,
 				F203DA7D297278140029744D /* ContentView.swift in Sources */,
+				F203DA892972782F0029744D /* Item.swift in Sources */,
+				F203DA8D2972CF5A0029744D /* Employee.swift in Sources */,
+				F203DA8F2972D15D0029744D /* NetworkService.swift in Sources */,
 				F203DA7B297278140029744D /* MvvmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
